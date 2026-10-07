@@ -1,0 +1,43 @@
+<!--Uso de parrafos y bloques -->
+<!--En esta parte veremos el uso de elementos 
+de texto-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Parrafos y  bloques</title>
+</head>
+<body>
+	<header></header>
+	<main>
+		<p>p del ingles paragrahp (parrafo) de texto  o no a la pagina</p>
+
+		<blockquote>blockquote: se usa para una cita extensa tomada de otra fuente. Si corresponde, puedes indicar la fuente con la etiqueta cite<cite> o el atributo cite.</blockquote>
+
+
+		<!--cite="..." solo proporciona la URL de origen como metadato; no crea un enlace visible ni clicable. <cite> marca el título de la obra o fuente citada. Si querés que la URL sea clicable, ahí sí agregás un enlace con <a href="...">. despues de la etiqueta footer-->
+
+		<blockquote cite="https://developer.mozilla.org/es/docs/MDN/Tutorials">
+      	<p>Este es un ejemplo de una cita extensa tomada de otra fuente.</p>
+      	<footer>Fuente: <cite >Título de la obra</cite></footer>
+    	</blockquote>
+
+
+		<pre>texto preformateado : conserva los espacios y saltos de linea que se escriben</pre>
+		<!-- Normalmente, el navegador reduce varios espacios seguidos a uno solo y no muestra los saltos de línea que pones en el HTML: suele presentar el texto como un flujo continuo.
+		<pre> cambia ese comportamiento: muestra los espacios y los saltos de línea tal como están escritos. Por ejemplo:-->
+		<p>
+  		Primera línea
+  		Segunda línea
+		</p>
+
+		<pre>
+  		Primera línea
+  		Segunda línea
+		</pre>
+
+	</main>
+	<footer></footer>
+</body>
+</html>
