@@ -1,0 +1,64 @@
+    ¿Que es html?
+    
+HTML es un lenguaje de marcado de hipertexto
+
+    ¿Que significa html?
+    
+En ingles HYPERTEXT MARKUP LENGUAgE
+En español LENGUAJE DE MARCADO DE HIPER TEXTO
+
+    ¿Cual es la funcion de html?
+
+Darle estructura a una pagina web
+
+-----Importante-----
+
+Es importante saber que html no es un lenguaje de programacion 
+si no un lenguaje de estructurado 
+
+-----Importante Organizacion-----
+
+HTML organiza el contenido con elementos que suelen escribirse 
+con etiquetas de apertura y cierre 
+
+Por ejemplo:        Ejemplo basico
+
+                <etiqueta atributo = "valor">   contenido  </etiqueta>
+
+Por ejemplo:        Ejemplo real y funcional
+
+                <img src="foto.jpg" alt="Descripción de la imagen">
+
+-----Importante Etiquetas de cierre-----
+
+Algunos elementos HTML no tienen contenido ni etiqueta de cierre.
+
+Por ejemplo:        Ejemplo real y funcional
+
+            <img src="foto.jpg" alt="Descripción de la foto">
+
+Los atributos pueden ser opcionales o necesarios, según el 
+elemento y su función. Por ejemplo, el atributo class es opcional:
+
+Por ejemplo:        Ejemplo real y funcional:    
+
+    <p class="introduccion">Este es un párrafo.</p>
+        
+        También puedes escribir el párrafo sin ese atributo:
+
+                    <p>Este es un párrafo.</p>
+
+
+-----Importante Anidamiento-----
+
+En HTML, los elementos pueden colocarse dentro de otros. 
+A esto se le llama anidamiento de elementos. 
+La última etiqueta que abres es la primera que cierras.
+
+Por ejemplo:
+
+    <EtiquetaPadre>
+        <EtiquetaHijo>
+        </EtiquetaHijo>
+    </EtiquetaPadre>
+
