@@ -1,0 +1,51 @@
+<!--  Listas ordenadas y desordenadas -->
+<!--Atributos type, start, reversed-->
+<!-- Listas de definicion -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo de listas</title>
+</head>
+<body>
+  <h1>Listas en HTML</h1>
+
+  <h2>Lista ordenada</h2>
+  <!--<ol> significa Ordered List: lista ordenada, normalmente numerada.-->
+  <ol type="A" start="3">
+  	<!--<li> significa List Item: elemento de una lista.-->
+  	<!--En <ol type="A">, type="A" indica que los elementos se numeran con letras mayúsculas: A, B, C…
+  	Otros valores posibles son 1 (números), a (letras minúsculas), 
+  	I (números romanos mayúsculos) e i (romanos minúsculos).-->
+    <li>Crear el archivo HTML</li>
+    <li>Escribir el contenido</li>
+    <li>Guardar los cambios</li>
+  </ol>
+
+  <h2>Lista ordenada descendente</h2>
+  <ol reversed start="3">
+    <li>Primer paso</li>
+    <li>Segundo paso</li>
+    <li>Tercer paso</li>
+  </ol>
+
+  <h2>Lista desordenada</h2>
+  <!-- <ul> significa Unordered List: una lista sin numeración, que normalmente muestra viñetas.-->
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+
+  <h2>Lista de definición</h2>
+  <dl>
+  	<!--<dl> significa Description List: una lista de términos y sus descripciones. Dentro se usan <dt> para el término y <dd> para su explicación.-->
+    <dt>HTML</dt>
+    <dd>Lenguaje que estructura el contenido de una página web.</dd>
+
+    <dt>CSS</dt>
+    <dd>Lenguaje que define la presentación visual de una página web.</dd>
+  </dl>
+</body>
+</html>
