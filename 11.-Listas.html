@@ -1,6 +1,5 @@
-<!--  Listas ordenadas y desordenadas -->
-<!--Atributos type, start, reversed-->
-<!-- Listas de definicion -->
+<!-- Ejemplo de listas ordenadas, desordenadas y de descripción.
+     Las listas ordenadas pueden usar los atributos type, start y reversed. -->
 
 <!DOCTYPE html>
 <html lang="es">
@@ -12,18 +11,19 @@
   <h1>Listas en HTML</h1>
 
   <h2>Lista ordenada</h2>
-  <!--<ol> significa Ordered List: lista ordenada, normalmente numerada.-->
+  <!-- <ol> crea una lista ordenada.
+       type="A" usa letras mayúsculas y start="3" comienza en la letra C. -->
   <ol type="A" start="3">
-  	<!--<li> significa List Item: elemento de una lista.-->
-  	<!--En <ol type="A">, type="A" indica que los elementos se numeran con letras mayúsculas: A, B, C…
-  	Otros valores posibles son 1 (números), a (letras minúsculas), 
-  	I (números romanos mayúsculos) e i (romanos minúsculos).-->
+    <!-- <li> representa un elemento de la lista. -->
     <li>Crear el archivo HTML</li>
     <li>Escribir el contenido</li>
     <li>Guardar los cambios</li>
   </ol>
 
   <h2>Lista ordenada descendente</h2>
+  <!-- reversed invierte el orden de la numeración.
+       start="3" establece el número inicial; con tres elementos,
+       la lista se numera 3, 2, 1. -->
   <ol reversed start="3">
     <li>Primer paso</li>
     <li>Segundo paso</li>
@@ -31,16 +31,18 @@
   </ol>
 
   <h2>Lista desordenada</h2>
-  <!-- <ul> significa Unordered List: una lista sin numeración, que normalmente muestra viñetas.-->
+  <!-- <ul> crea una lista sin orden numérico;
+       normalmente, el navegador muestra viñetas. -->
   <ul>
     <li>HTML</li>
     <li>CSS</li>
     <li>JavaScript</li>
   </ul>
 
-  <h2>Lista de definición</h2>
+  <h2>Lista de descripción</h2>
+  <!-- <dl> agrupa términos y sus descripciones.
+       <dt> identifica un término y <dd> contiene su descripción. -->
   <dl>
-  	<!--<dl> significa Description List: una lista de términos y sus descripciones. Dentro se usan <dt> para el término y <dd> para su explicación.-->
     <dt>HTML</dt>
     <dd>Lenguaje que estructura el contenido de una página web.</dd>
 
